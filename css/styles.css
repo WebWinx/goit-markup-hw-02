@@ -2,7 +2,6 @@
 	--primary-text-color: #000000;
 	--title-text-color: #212121;
 	--accent-color: #2196F3;
-	--contacts-color:#757575;
 	--primary-bg-color:  #E5E5E5;;
 	--color-text-description:#757575;
 	--bg-color-section: #2F303A;
@@ -65,7 +64,7 @@ letter-spacing: 0.02em;
 }
 /*site-contact*/
 .contacts-link {
-	color:var(--contacts-color);
+	color:var(--color-text-description));
    font-weight: 500;
    font-size: 14px;
    line-height: 1.2;
@@ -169,7 +168,7 @@ line-height: 1.6;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--title-text-color));
+color: var(--title-text-color);
 }
 
 .description-types {
