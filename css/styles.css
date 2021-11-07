@@ -4,10 +4,10 @@
 	--accent-color: #2196F3;
 	--contacts-color:#757575;
 	--primary-bg-color:  #E5E5E5;;
-	--secondary-text-color: rgba(33, 33, 33, 1);
 	--color-text-description:#757575;
 	--bg-color-section: #2F303A;
-   --bg-color-team: #F5F4FA;}
+   --bg-color-team: #F5F4FA;
+   --btn-text-color: #FFFFFF;}
 	/*body settigs*/
 a {
 	text-decoration:none;}
@@ -79,7 +79,7 @@ letter-spacing: 0.02em;
 	font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
-   color: #FFFFFF;
+   color:var(--btn-text-color);
 }
 .adress-link:hover, 
 .adress-link:focus {
@@ -99,10 +99,10 @@ letter-spacing: 0.02em;
 	text-align: center;
    letter-spacing: 0.06em;
    text-transform: uppercase;   
-   color: #FFFFFF;
+   color:var(--btn-text-color);
 }
 .primary-button {
-	color: #FFFFFF;
+	color:var(--btn-text-color);
 	background-color:var(--accent-color);
    font-weight: 700;
    font-size: 16px;
@@ -160,7 +160,7 @@ font-size: 16px;
 line-height: 1.6;
 }
 .button:hover {
-	color: var(--primary-bg-color);
+	color:var(--btn-text-color);
 	background-color:var(--accent-color);
 }
 
@@ -169,7 +169,7 @@ line-height: 1.6;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--secondary-text-color);
+color: var(--title-text-color));
 }
 
 .description-types {
