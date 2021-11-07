@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
 :root {
 	--primary-text-color: #000000;
 	--title-text-color: #212121;
@@ -15,6 +23,7 @@ background-color: (--primary-bg-color);
 color: var(--primary-text-color);
 font-family: Roboto, sans-serif;
 font-style: normal;
+margin: 0;
 }
 ul {
    list-style: none;}
@@ -64,7 +73,7 @@ letter-spacing: 0.02em;
 }
 /*site-contact*/
 .contacts-link {
-	color:var(--color-text-description));
+	color:var(--color-text-description);
    font-weight: 500;
    font-size: 14px;
    line-height: 1.2;
@@ -152,14 +161,15 @@ color:var(--color-text-description);
 
 .button {
 color: var(--primary-text-color);
-background-color: var(--primary-bg-color);
+background-color:var(--bg-color-team);
 cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
+
 }
 .button:hover {
-	color:var(--btn-text-color);
+	color:var(--bg-color-team);
 	background-color:var(--accent-color);
 }
 
