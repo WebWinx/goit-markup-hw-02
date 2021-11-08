@@ -1,45 +1,53 @@
 :root {
 	--primary-text-color: #000000;
 	--title-text-color: #212121;
-	--accent-color: #2196F3;
-	--primary-bg-color:  #E5E5E5;;
-	--color-text-description:#757575;
-	--bg-color-section: #2F303A;
-   --bg-color-team: #F5F4FA;
-   --btn-text-color: #FFFFFF;}
+	--accent-color: #2196f3;
+	--primary-bg-color: #e5e5e5;
+	--color-text-description: #757575;
+	--bg-color-section: #2f303a;
+	--bg-color-team: #f5f4fa;
+	--btn-text-color: #ffffff;
+}
 html {
 	box-sizing: border-box;
-   }
-   *,
-   *::before,
-   *::after {
-   box-sizing: inherit;
-   }
-
-	/*body settigs*/
-a {
-	text-decoration:none;}
-body {
-   background-color: (--primary-bg-color);
-   color: var(--primary-text-color);
-   font-family: Roboto, sans-serif;
-   margin: 0;
 }
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+/*body settigs*/
+a {
+	text-decoration: none;
+}
+body {
+	background-color: (--primary-bg-color);
+	color: var(--primary-text-color);
+	font-family: Roboto, sans-serif;
+	margin: 0;
+}
+button {
+	cursor: pointer;
+	}
 ul {
-   list-style: none;}
+	list-style: none;
+}
 address {
 	font-style: normal;
 }
-.hero, .down {
+.hero,
+.down {
 	background-color: var(--bg-color-section);
 	text-align: center;
-	}
-   /*header*/
+}
+/*header*/
 .logo {
 	font-family: Raleway;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.2;}
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+}
 
 .logo-studio-primary {
 	color: var(--primary-text-color);
@@ -51,53 +59,53 @@ address {
 .logo-studio-secondary {
 	color: var(--primary-bg-color);
 }
-   /*site-nav*/
+/*site-nav*/
 .nav-link {
-	color:var(--title-text-color);
+	color: var(--title-text-color);
 	font-family: inherit;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
 	color: var(--accent-color);
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 16px;
-   letter-spacing: 0.02em;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
 }
 .current {
-   color:var(--accent-color);
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
+	color: var(--accent-color);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
-   /*site-contact*/
+/*site-contact*/
 .contact-link {
-	color:var(--color-text-description);
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 1.2;
-   letter-spacing: 0.02em;
+	color: var(--color-text-description);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
-.contact-link:hover, 
+.contact-link:hover,
 .contact-link:focus {
-	color:var(--accent-color);
+	color: var(--accent-color);
 }
 .adress-link {
 	font-size: 14px;
-   line-height: 1.7;
-   letter-spacing: 0.03em;
-   color:var(--btn-text-color);
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: var(--btn-text-color);
 }
-.adress-link:hover, 
+.adress-link:hover,
 .adress-link:focus {
-	color:var(--accent-color);
+	color: var(--accent-color);
 }
-   /*hero*/
+/*hero*/
 .visualy-hidden {
 	white-space: nowrap;
 	clip-path: inset(100%);
@@ -109,20 +117,20 @@ address {
 	font-size: 44px;
 	line-height: 1.4;
 	text-align: center;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;   
-   color:var(--btn-text-color);
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	color: var(--btn-text-color);
 	margin: 30px;
 }
 .primary-button {
-	color:var(--btn-text-color);
-	background-color:var(--accent-color);
-   font-weight: 700;
-   font-size: 16px;
-   line-height: 1.8;
+	color: var(--btn-text-color);
+	background-color: var(--accent-color);
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.8;
 	text-align: center;
 }
-   /*features*/
+/*features*/
 
 .features-title {
 	font-size: 14px;
@@ -134,19 +142,20 @@ address {
 .features-description {
 	color: var(--color-text-description);
 	font-size: 14px;
-   letter-spacing: 0.03em;
+	letter-spacing: 0.03em;
 	line-height: 1.7;
-	}
-
-   /*actitvity*/
-.activity-title, .team-title {
-   font-size: 36px;
-   line-height: 1.16;
-   text-align: center;
-   letter-spacing: 0.03em;
-   color:var(--title-text-color);
 }
-   /*team*/
+
+/*actitvity*/
+.activity-title,
+.team-title {
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--title-text-color);
+}
+/*team*/
 .team-section {
 	background-color: var(--bg-color-team);
 }
@@ -155,68 +164,44 @@ address {
 	line-height: 1.18;
 	font-weight: 500;
 	letter-spacing: 0.03em;
-	color:var(--title-text-color);
+	color: var(--title-text-color);
 }
 .specialist-description {
-   font-size: 16px;
-   line-height: 1.18;
-   letter-spacing: 0.03em;
-   color:var(--color-text-description);
+	font-size: 16px;
+	line-height: 1.18;
+	letter-spacing: 0.03em;
+	color: var(--color-text-description);
 }
-   /*button*/
+/*button*/
 
 .secondary-button {
-   color: var(--primary-text-color);
-   background-color:var(--bg-color-team);
-   cursor: pointer;
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.6;
+	color: var(--primary-text-color);
+	background-color: var(--bg-color-team);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
 }
 .secondary-button:hover {
-	color:var(--bg-color-team);
-	background-color:var(--accent-color);
+	color: var(--bg-color-team);
+	background-color: var(--accent-color);
 }
 
-   /*types-list*/
+/*types-list*/
 .types-title {
-   font-size: 18px;
-   line-height: 2;
-   letter-spacing: 0.06em;
-   color: var(--title-text-color);
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--title-text-color);
 }
 
 .description-types {
-   font-weight: 400;
-   font-size: 16px;
-   line-height: 1.8;
-   letter-spacing: 0.03em;
-   color:var(--color-text-description);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.03em;
+	color: var(--color-text-description);
 }
-   /*footer*/
+/*footer*/
 address {
 	font-style: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
