@@ -67,24 +67,18 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-.nav-link-current {
+.current {
     color: var(--accent-color);
 }
-.site-nav-item {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 114;
-    letter-spacing: 0.02em;
-    list-style-type: none;
-}
+
 /*site-contact*/
 .contact-link {
     color: var(--color-text-description);
@@ -109,10 +103,7 @@ address {
 }
 /*hero*/
 .visualy-hidden {
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+    display: none;
 }
 .hero-title {
     font-weight: 900;
@@ -133,9 +124,6 @@ address {
     text-align: center;
 }
 /*features*/
-.container {
-    margin-top: 0;
-}
 .features-title {
     font-size: 14px;
     line-height: 1.14;
@@ -151,8 +139,7 @@ address {
 }
 
 /*actitvity*/
-.activity-title,
-.team-title {
+.section-title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
